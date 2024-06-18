@@ -1,5 +1,4 @@
-import { Navbar } from "@/components/Navbar/Navbar";
-import { Text } from "@/components/Text/Text";
+import { Text } from "/components/Text/Text";
 
 export default function Page() {
 
@@ -11,8 +10,7 @@ export default function Page() {
   Nuestro compromiso es proporcionar un servicio excepcional y personalizado para ti y tus mascotas. ¡Esperamos tener noticias tuyas pronto!`;
 
   return (
-    <>
-      <Navbar />
+    <>      
       <h1>¡Estamos aquí para ayudarte!</h1>
       <Text txt={textoContacto1} />
       <label>Teléfono: 333-666-999</label>

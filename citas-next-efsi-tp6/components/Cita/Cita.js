@@ -1,6 +1,6 @@
 
 import "./Cita.css";
-import { Boton } from "@/components/Boton/Boton";
+import { Boton } from "/components/Boton/Boton";
 
 export function Cita({ id, citas, setCitas, mascota, dueño, fecha, hora, sintomas }) {
 

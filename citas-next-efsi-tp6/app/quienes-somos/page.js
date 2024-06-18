@@ -1,5 +1,4 @@
-import { Navbar } from "@/components/Navbar/Navbar";
-import { Text } from "@/components/Text/Text";
+import { Text } from "/components/Text/Text";
 
 export default function Page() {
 
@@ -11,8 +10,7 @@ export default function Page() {
    `;
 
   return (
-    <>
-      <Navbar />
+    <>      
       <h1>Emipa</h1>
       <Text txt={textoPresentacion} />
     </>

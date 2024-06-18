@@ -1,15 +1,13 @@
 'use client'
-import { Navbar } from "@/components/Navbar/Navbar"
 import { useState } from 'react';
-import { Formulario } from "@/components/Form/Form";
-import {Listado} from "@/components/Listado/Listado";
+import { Formulario } from "/components/Form/Form";
+import {Listado} from "/components/Listado/Listado";
 
 export default function Page() {
     
   const [citas, setCitas] = useState([]);
 
-  return (<>
-        <Navbar></Navbar>
+  return (<>        
         <h1>ADMINISTRADOR DE PACIENTES</h1>
         <div class="container">
           <div class="row">

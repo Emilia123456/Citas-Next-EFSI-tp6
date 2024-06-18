@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import "../Form/Form.css"
-import { Boton } from "@/components/Boton/Boton";
+import { Boton } from "/components/Boton/Boton";
 //import { getElementError } from "@testing-library/react";
 
 export function Formulario({citas, setCitas}){
